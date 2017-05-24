@@ -11,13 +11,16 @@ We need tp predict from the historical data how many bikes do we need.
 Steps to setup the environment:
 ------------------------------
 
-conda create --name dlnd python=3
+conda create --name bikepro python=3
 
 Next, for different OS, we have to to call it's corresponding activation code as shown below
 
-Mac/Linux: >> source activate dlnd
-Windows: >> activate dlnd
+Mac/Linux: >> source activate bikepro
+Windows: >> activate bikepro
 
 conda install numpy matplotlib pandas jupyter notebook
 
 Load and prepare data from the data sets provided, train it and verify the output.
+
+once done, we can deactivate source using 
+source deactivate bikepro
